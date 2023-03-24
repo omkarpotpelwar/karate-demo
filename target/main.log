@@ -1,0 +1,58 @@
+00:14:18.069 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:14:18.422 request:
+1 > GET https://api.realworld.io/api/articles?limit=1&offset=0
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.realworld.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/14.0.2)
+
+00:14:20.077 response time in milliseconds: 1649.87
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 796ec15c5c53f462-BOM
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 09 Feb 2023 18:44:16 GMT
+1 < Etag: W/"7d0-01LrvZw7encfQrL/ge8fq47eR5g"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EgHGy%2BUSnhrduPR%2FvyhuIc9DGnqRYuFrzrehr02yPTpdIGahRbTh7rjwKt0T9r9ixG%2F8OJAI2EiRYGO%2BzDFD25A%2FX4S3Q7oikZ8MvO61KEYG7rEW6%2BPwzOTykSI2ww5%2FOchA"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"articles":[{"slug":"Try-to-transmit-the-HTTP-card-maybe-it-will-override-the-multi-byte-hard-drive!-120863","title":"Try to transmit the HTTP card, maybe it will override the multi-byte hard drive!","description":"Assumenda molestiae laboriosam enim ipsum quaerat enim officia vel quo. Earum odit rem natus totam atque cumque. Sint dolorem facere non.","body":"Sunt excepturi ut dolore fuga.\\nAutem eum maiores aut nihil magnam corporis consectetur sit. Voluptate et quasi optio eos et eveniet culpa et nobis.\\nSint aut sint sequi possimus reiciendis nisi.\\nRerum et omnis et sit doloribus corporis voluptas error.\\nIusto molestiae tenetur necessitatibus dolorem omnis. Libero sed ut architecto.\\nEx itaque et modi aut voluptatem alias quae.\\nModi dolor cupiditate sit.\\nDelectus consectetur nobis aliquid deserunt sint ut et voluptas.\\nCorrupti in labore laborum quod. Ipsa laudantium deserunt. Ut atque harum inventore natus facere sed molestiae.\\nQuia aliquid ut.\\nAnimi sunt rem et sit ullam dolorem ab consequatur modi. Cupiditate officia voluptatum.\\nTenetur facere eum distinctio animi qui laboriosam.\\nQuod sed voluptatem et cumque est eos.\\nSint id provident suscipit harum odio et. Et fuga repellendus magnam dignissimos eius aspernatur rerum. Quo perferendis nesciunt.\\nDolore dolorem porro omnis voluptatibus consequuntur et expedita suscipit et.\\nTempora facere ipsa.\\nDolore accusamus soluta officiis eligendi.\\nEum quaerat neque eum beatae odio. Ad voluptate vel.\\nAut aut dolor. Cupiditate officia voluptatum.\\nTenetur facere eum distinctio animi qui laboriosam.\\nQuod sed voluptatem et cumque est eos.\\nSint id provident suscipit harum odio et.","tagList":["voluptate","rerum","ducimus","hic"],"createdAt":"2022-12-09T13:46:24.264Z","updatedAt":"2022-12-09T13:46:24.264Z","favorited":false,"favoritesCount":448,"author":{"username":"Anah Benešová","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false}}],"articlesCount":197}
+
+00:14:20.247 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:14:20.251 request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/14.0.2)
+
+00:14:20.467 response time in milliseconds: 211.87
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 779
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 796ec166ca92793d-AMD
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 09 Feb 2023 18:44:17 GMT
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2B1T1jImyKvli2rxFI8cfyC58iAq9I8uoo5kms4HYdcC0n1JGfPTcg0XKiRt%2BoTzPCAO5A%2FYPRprYRpjf6RPn4YG7fB%2FSOuKInrW6SBAERECPEaIXvRiVtGzQ%2Fw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+rat enim officia vel quo. Earum odit rem natus totam atque cumque. Sint dolorem facere non.","body":"Sunt excepturi ut dolore fuga.\\nAutem eum maiores aut nihil magnam corporis consectetur sit. Voluptate et quasi optio eos et eveniet culpa et nobis.\\nSint aut sint sequi possimus reiciendis nisi.\\nRerum et omnis et sit doloribus corporis voluptas error.\\nIusto molestiae tenetur necessitatibus dolorem omnis. Libero sed ut architecto.\\nEx itaque et modi aut voluptatem alias quae.\\nModi dolor cupiditate sit.\\nDelectus consectetur nobis aliquid deserunt sint ut et voluptas.\\nCorrupti in labore laborum quod. Ipsa laudantium deserunt. Ut atque harum inventore natus facere sed molestiae.\\nQuia aliquid ut.\\nAnimi sunt rem et sit ullam dolorem ab consequatur modi. Cupiditate officia voluptatum.\\nTenetur facere eum distinctio animi qui laboriosam.\\nQuod sed voluptatem et cumque est eos.\\nSint id provident suscipit harum odio et. Et fuga repellendus magnam dignissimos eius aspernatur rerum. Quo perferendis nesciunt.\\nDolore dolorem porro omnis voluptatibus consequuntur et expedita suscipit et.\\nTempora facere ipsa.\\nDolore accusamus soluta officiis eligendi.\\nEum quaerat neque eum beatae odio. Ad voluptate vel.\\nAut aut dolor. Cupiditate officia voluptatum.\\nTenetur facere eum distinctio animi qui laboriosam.\\nQuod sed voluptatem et cumque est eos.\\nSint id provident suscipit harum odio et.","tagList":["voluptate","rerum","ducimus","hic"],"createdAt":"2022-12-09T13:46:24.264Z","updatedAt":"2022-12-09T13:46:24.264Z","favorited":false,"favoritesCount":448,"author":{"username":"Anah Benešová","bio":null,"image":"https://api.realworld.io/images/demo-avatar.png","following":false}}],"articlesCount":197}
+
+
+
